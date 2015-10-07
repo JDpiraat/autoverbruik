@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="thuis.dullaert.johan.entities.Verbruik" table="verbruik">
+        <id name="id" type="int" access="field">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="aantalKilometer" type="double">
+            <column name="AANTALKILOMETER" />
+        </property>
+        <property name="aantalLiter" type="double">
+            <column name="AANTALLITER" />
+        </property>
+        <property name="literPrijs" type="java.math.BigDecimal">
+            <column name="LITERPRIJS" />
+        </property>
+        <property name="datum" type="java.util.Date">
+            <column name="DATUM" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,199 @@
+body {
+	text-align: center;
+	margin: 25px;
+	background-color: #ddd;
+}
+
+div#mainpage {
+	width: 800px;
+	text-align: left;
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: gisha, sans-serif;
+	font-size: x-large;
+	text-decoration: underline;
+	line-height: 50px;
+	color: silver;
+	background-color: black;
+	border-style: double;
+	border-color: silver;
+	border-top-width: 6px;
+	border-bottom-width: 12px;
+	border-left-width: 6px;
+	border-right-width: 12px;
+	padding-left: 15px;
+}
+
+h2 {
+	font-family: gisha, sans-serif;
+	font-size: large;
+	line-height: 30px;
+	color: black;
+	background-color: silver;
+	border-style: double;
+	border-top-width: 4px;
+	border-bottom-width: 8px;
+	border-left-width: 4px;
+	border-right-width: 8px;
+	border-color: black;
+	padding-left: 15px;
+}
+
+h3 {
+	font-family: gisha, sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	color: black;
+	background-color: silver;
+	border-color: black;
+	border-width: thin;
+	border-style: dotted;
+	margin-top: 20px;
+	padding: 4px;
+}
+
+a {
+	display: block;
+	font-family: gisha, sans-serif;
+	padding-left: 15px;
+}
+
+a:LINK {
+	color: black;
+}
+
+a:HOVER {
+	text-decoration: overline;
+	color: black;
+}
+
+a:VISITED {
+	color: black;
+}
+
+div {
+	padding-top: 20px;
+}
+
+table {
+	padding: 10px;
+	border-width: thick;
+	border-style: double;
+	border-color: silver;
+	font-family: gisha, sans-serif;
+}
+
+th {
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+	background-color: silver;
+	width: 30xp;
+}
+
+td {
+	font-size: medium;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: thin;
+	border-bottom-color: silver;
+	border-bottom-style: groove;
+}
+
+td#datum {
+	font-size: medium;
+	font-weight: normal;
+	text-align: right;
+	border-bottom: thin;
+	border-bottom-color: silver;
+	border-bottom-style: groove;
+}
+
+table#paging {
+	padding: 10px;
+	border-width: 0px;
+	border-style: hidden;
+	font-family: gisha, sans-serif;
+}
+
+td#pagenumbers {
+	font-size: medium;
+	font-weight: normal;
+	text-align: center;
+	padding-right: 10px;
+}
+
+a#pagenumberslink {
+	padding: 0px;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+ul#menu {
+	font-family: gisha, sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	color: black;
+	background-color: silver;
+	border-color: black;
+	border-width: thin;
+	border-style: dotted;
+	margin-top: 20px;
+	padding: 4px;
+}
+
+ul#menu  li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+ul#menu a {
+	display: inline;		
+}
+
+label {
+	font-size: medium;
+	font-weight: normal;
+	font-family: gisha, sans-serif;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+form {
+	border-color: silver;
+	border-style: double;
+	border-width: thick;
+}
+
+.bottomRoom {
+	padding-bottom: 20px;
+	padding-left: 15px;
+	clear: both;
+}
+
+.onArow {
+	text-align: right;
+	padding-left: 15px;
+	float: left;
+}
+input.field{
+	width: 130px;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: large;
+}
