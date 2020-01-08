@@ -28,9 +28,9 @@
 		</property>
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/autoverbruik">			
 		</property>
-		<property name="user" value="johan">			
+		<property name="user" value="cursist">			
 		</property>
-		<property name="password" value="baAs_03*DB2/">			
+		<property name="password" value="cursist">			
 		</property>
 	</bean>	
 	
